@@ -1,0 +1,252 @@
+@import url('reset.css');
+
+/* reset css */
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+  
+/* fonts css */
+
+body {
+    background: #fcb800;
+    font-family: 'VT323', monospace;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* swiper all */
+.swiper-container {
+    overflow: visible !important;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: pink; */
+}
+
+.nextBtn, .prevBtn {
+    position: absolute;
+    display: block;
+    width: 6vw;
+}
+.nextBtn:hover, .prevBtn:hover {
+    transform: translateY(3px);
+}
+.nextBtn>img, .prevBtn>img {
+    width: 100%;
+}
+/* ====================== */
+
+/* ======================================== */
+/* ======================================== */
+/* ======================================== */
+
+
+/* section1 */
+
+/* section1 top txt */
+
+.section1 {
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+.top_txt {
+    margin-top: 2%;
+}
+.top_txt>ul {
+    width: 70%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.top_txt>ul>li {
+    float: left;
+    font-size: 2.5rem;
+    line-height: 0.8;
+    text-align: center;
+    padding: 0 8%;
+}
+.top_txt span {
+    font-size: 1%;
+}
+.top_txt img {
+    width: 20%;
+}
+
+/* ====================== */
+
+
+/* section1 main title */
+.main_title {
+    margin-top: 2%;
+}
+.main_title>img {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
+
+/* ===================== */
+
+
+
+
+/* section1 scrolldown */
+.sec1_scrolldown {
+    margin-top: 3%;
+}
+.sec1_scrolldown>p {
+    opacity: 0%;
+    font-family: 'VT323', monospace;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.3vw;
+    animation: scrolldown 1.7s infinite;
+    animation-timing-function: cubic-bezier(0, 1, 0, 1);
+}
+
+@keyframes scrolldown {
+    0% {opacity: 0%;}
+    50%{opacity: 100%;} 
+    100% {opacity: 0%;}
+}
+/* ========================= */
+
+/* section1 end */
+
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+
+
+/* section2 */
+
+/* section2 background pattern */
+
+.sec2_pattern {
+    background-image: url(../images/page3_bg_mushroom2.png);
+    background-size: 100px 100px;
+    opacity: 30%;
+    animation: pattern 150s linear infinite;
+}
+
+@keyframes pattern {
+    0% {background-position: 0 2000px;}
+    100% {background-position: 2000px 0;}
+}
+
+/* ========================= */
+
+/* section2 mockup slider */
+
+
+
+.section2 {
+    width: 100%;
+    padding: 30% 0;
+    background: orange;
+}
+
+
+.mockup_NES {
+    position: relative;
+    width: 25%;
+    height: 30vh;
+    /* margin-top: 30%; */
+    left: 20%;
+    /* background: green; */
+}
+.tv80s {
+    position: absolute;
+    width: 100%;
+    display: block;
+    z-index: 4;
+}
+
+
+.swiper1 .swiper-slide {
+    background-size: 66%;
+    background-position: 22% 0%;
+    background-repeat: no-repeat;
+}
+.nextBtn1 {
+    top: 45%;
+    right: -30%;
+}
+.prevBtn1 {
+    top: 45%;
+    left: -30%;
+}
+/* ========================= */
+
+/* ========================================== */
+/* ========================================== */
+/* ========================================== */
+
+
+/* section3 */
+
+/* section3 mockup slider */
+.mockup_SNES {
+    position: relative;
+    width: 22%;
+    height: 48vh;
+    margin-top: 30%;
+    left: 55%;
+    /* transform: translateX(-50%); */
+    /* background: green; */
+}
+.tv90s {
+    position: absolute;
+    display: block;
+    width: 100%;
+    z-index: 4;
+}
+
+.swiper2 .swiper-slide {
+    background-size: 80%;
+    background-position: 55% 3%;
+    background-repeat: no-repeat;
+    top: 4%;
+  }
+
+.nextBtn2 {
+    top: 40%;
+    right: -35%;
+}
+
+.prevBtn2 {
+    top: 40%;
+    left: -35%;
+}
+
+/* ====================== */
+
+/* ====================================== */
+/* ====================================== */
+/* ====================================== */
+
+
+/* section3 */
+
+.mockup_GB {
+    position: relative;
+    width: 18%;
+    height: 430px;
+    margin-top: 30%;
+    left: 20%;
+    /* transform: translateX(-50%); */
+    /* background: green; */
+}
+.gb {
+    position: absolute;
+    display: block;
+    width: 100%;
+    z-index: 4;
+}
+
+
+
+
+
+
+  
